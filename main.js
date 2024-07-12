@@ -3,12 +3,15 @@ const closemenu = document.querySelector("#closemenu");
 const menuoptions = document.querySelector("#menu");
 const scrollbtn = document.querySelector("moveup");
 console.log(scrollbtn)
+
+
 openmenu.addEventListener("click", () => {
   menuoptions.classList.remove("hidden");
 });
 closemenu.addEventListener("mousedown", () => {
   menuoptions.classList.add("hidden");
 });
+
 const category = document.querySelectorAll(".category button");
 const all = document.querySelectorAll(".showall");
 const snak = document.querySelectorAll(".snak");
